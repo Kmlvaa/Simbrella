@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+.main-div{
+    width: 940px;
+    height: 500px;
+    padding: 20px;
+    margin: auto;
+}
+.head-div{
+    white-space: nowrap;
+    margin-bottom: 25px;
+}
+h1{
+    font-family: 'Onest', sans-serif;
+    color:blue;
+    display: inline-block;
+}
+.btn{
+    border: 2.5px solid rgb(166, 165, 165);
+    border-radius: 8px;
+    background-color: white;
+    font-family:monospace;
+    font-size: small;
+    font-weight: bolder;
+    padding: 8px 10px;
+    float: right;
+    margin: 25px 0px;
+    cursor: pointer;
+}
+.btn:hover{
+    border-color: rgb(251, 125, 79);
+    transition: 0.5s;
+}
+i{
+    padding-left: 25px;
+    color: rgb(243, 120, 75);
+    
+}
+.img{
+    margin:20px;
+}
+#image{
+    margin-bottom: 30px;
+}
+.body-div{
+    white-space: nowrap;
+
+}
+.child-div{
+    display:inline-block;
+    width:300px;
+    height: 380px;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid rgb(198, 197, 197);
+    border-radius: 5px;
+    margin-right: 14px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+.child-div:hover{
+    transform: scale(1.015);
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #5F6773;
+    white-space: wrap;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding-left: 12px;
+    padding-right: 12px;
+}
